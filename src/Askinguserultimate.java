@@ -19,7 +19,6 @@ public class Askinguserultimate {
             for (int e = 0; e < nums.length; e++) {
                 if (nums[e] % 2 == 0) {
 
-
                 }
             }
         }

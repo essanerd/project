@@ -5,5 +5,6 @@ public class Arrays10 {
     public static void main(String[] args) {
         char[] letter ={'q','w','e'};
         Arrays.sort(letter);
+        System.out.println(letter);
     }
 }
