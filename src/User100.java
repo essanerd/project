@@ -15,10 +15,7 @@ public class User100 {
         array[3] = scanner.nextInt();
         System.out.println("Enter fifth number");
         array[4] = scanner.nextInt();
-        if (array[0] != 100);{
 
 
-
+}
     }
-}
-}

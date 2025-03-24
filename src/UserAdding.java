@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UserAdding {
+public class                                     UserAdding {
     public static void main(String[] args) {
         int array[] = new int[5];
         Scanner scanner = new Scanner(System.in);
