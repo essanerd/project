@@ -8,7 +8,6 @@ public class Q90 {
         System.out.println("enter a statment");
         String statment = object.nextLine();
 
-        String [] array = new String[]
 
 
       //  System.out.println(statment.length());

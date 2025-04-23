@@ -8,9 +8,15 @@ public class Q91 {
         System.out.println("enter your full name");
         String name = object.nextLine();
 
-        char ch = name.charAt(0);
-        String finalizer = Character.toString(ch).toUpperCase();
-        String finalized = name.substring(ch,name.indexOf(" ")).toUpperCase();
-        System.out.println(finalized);
+        String [] array = name.split("");
+        for (String finaled : array) {
+            System.out.println(finaled);
+
+        }
+        //name.toUpperCase();
+       // char ch = name.charAt(0);
+       // String finalizer = Character.toString(ch).toUpperCase();
+       // String finalized = name.substring(0,name.indexOf(" "));
+        //System.out.println(finalized);
     }
 }
