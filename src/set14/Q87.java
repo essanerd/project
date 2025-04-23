@@ -15,15 +15,15 @@ public class Q87 {
 
         System.out.println("---------------------------------------------------");
 
-        //Scanner object = new Scanner(System.in);
+        Scanner object = new Scanner(System.in);
 
-        //System.out.println("Enter a statement");
-        //String statment = object.nextLine();
+        System.out.println("Enter a statement");
+        String statment = object.nextLine();
 
-        // Trim and convert to uppercase
-        //String cleaned = statment.trim().toUpperCase();
 
-       // System.out.println(cleaned);
+        String cleaned = statment.toUpperCase().trim();
+
+        System.out.println(cleaned);
 
         System.out.println("---------------------------------------------------");
         
