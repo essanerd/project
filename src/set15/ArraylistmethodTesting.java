@@ -10,7 +10,7 @@ public class ArraylistmethodTesting {
         list.add("Apple");
         list.add(1, "Banana");
         list.addAll(Arrays.asList("Orange", "Mango"));
-        list.addAll(2, Arrays.asList("grapes", "pineapple"));
+        list.addAll(2, Arrays.asList("grapes", "pineapple" , "apple"));
         System.out.println(list);
 
         list.remove(2);
@@ -30,6 +30,26 @@ public class ArraylistmethodTesting {
         System.out.println("-----");
         System.out.println(list.indexOf("Orange"));
 
+        if (list.isEmpty()) {
+            System.out.println("List is empty!");
+        }
+        else {
+            System.out.println("list has elements");
+        }
 
+        int lastPos = list.lastIndexOf("Apple");
+        System.out.println(lastPos);
+
+        list.remove("Apple");
+        System.out.println(list);
+
+       // list.removeAll(Arrays.asList("Orange", "Mango"));
+       // System.out.println(list);
+
+        list.subList(0,1).clear(); // always have to put it one up if you want to get the designated answer.
+        System.out.println(list);
+
+        list.set(0, "Blueberry"); // Replaces item at index 0
+        System.out.println(list);
     }
 }
