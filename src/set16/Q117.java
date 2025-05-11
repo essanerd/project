@@ -15,11 +15,12 @@ public class Q117 {
     }
 
     public static double largerNumber(double a, double b) {
-        if (a < b) {
-            return b;
-        }
-        else {
-            return a;
-        }
+     //   if (a < b) {
+    //        return b;
+     //   }
+      //  else {
+        return (a > b) ? a : b; // better way using ternary operator
+
     }
-}
+    }
+
