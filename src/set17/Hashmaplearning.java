@@ -59,8 +59,8 @@ public class Hashmaplearning {
         System.out.println("Language: " + Geeks.get("Language"));
 
 // Using the containsKey() method to check if a key exists in the HashMap
-        boolean containsKey = Geeks.containsKey("Code");
-        System.out.println("Contains Key 'Code'? "
+        boolean containsKey = Geeks.containsKey("essa");
+        System.out.println("Contains Key 'essa'? "
                 + containsKey);
 
 // Using the containsValue() method to check if a value exists in the HashMap
